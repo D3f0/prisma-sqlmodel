@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "prisma-sqlmodel"
+version = "0.1.0"
+description = "Generate SQLModel model definitions using prisma-client-python generator code"
+authors = ["Nahuel <nahuel.defosse@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+prisma = "^0.13.1"
+
+[tool.poetry.group.dev.dependencies]
+pdbpp = "^0.10.3"
+hunter = "^3.7.0"
+pre-commit = "^3.7.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
