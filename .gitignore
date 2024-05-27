@@ -2,3 +2,4 @@ dist/*
 .*
 !.gitignore
 !.devcontainer
+!.pre-commit-config.yaml
